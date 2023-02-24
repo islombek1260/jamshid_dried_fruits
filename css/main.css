@@ -372,15 +372,6 @@ body {
 }
 
 /* STICKY-FOOTER */
-.site-main {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  background-image: url(../images/0423d0889e7f5a645edc452fbe5ccc22.jpg);
-  -webkit-mask-repeat: repeat-y;
-          mask-repeat: repeat-y;
-}
-
 /* VISUALLY-HIDDEN */
 .visually-hidden {
   position: absolute;
@@ -581,8 +572,8 @@ body {
 
 .item__img {
   border-radius: 5px;
-  max-width: 215px;
-  height: 150px;
+  max-width: 210px;
+  height: 135px;
 }
 
 .item__name {
@@ -632,7 +623,7 @@ body {
 }
 
 .footer-contact__list {
-  width: 40%;
+  width: 100%;
   padding: 0px;
   margin: 0;
   display: -webkit-box;
@@ -656,7 +647,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 5px;
+}
+
+.footer-contact__link {
+  padding: 10px;
 }
 
 .footer-menu__link {
@@ -668,6 +662,7 @@ body {
 }
 
 .footer-menu__number {
+  width: 100%;
   text-decoration: none;
   color: black;
   font-family: "Poppins";
@@ -676,7 +671,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 5px;
+  padding: 15px 20px;
 }
 
 .footer-menu__list {

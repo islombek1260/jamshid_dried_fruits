@@ -29,7 +29,7 @@ var products = [
 },
 
 {
-    "name": "Red organic sultamas",
+    "name": "Red organic sultanas",
     "class": "premium",
     "price": "2.8$",
     "image": "item-1"

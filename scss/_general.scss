@@ -30,8 +30,34 @@ body{
 }
 
 /* STICKY-FOOTER */
-.site-main{
-  flex-grow: 1;
-  background-image: url(../images/0423d0889e7f5a645edc452fbe5ccc22.jpg);
-  mask-repeat: repeat-y;
-}
+// .site-main{
+//   flex-grow: 1;
+//   background-image: url(../images/0423d0889e7f5a645edc452fbe5ccc22.jpg);
+//   mask-repeat: repeat-y;
+// }
+
+// .go-top {
+//   width: 35px;
+//   height: 25px;
+//   position: fixed;
+//   right: 20px;
+//   top: 50%;
+//   transform: translateY(-50%);
+//   font-size: 20px;
+//   cursor: pointer;
+//   padding: 10px 15px;
+//   color: black;
+//   border: 1px solid black;
+//   background-color: white;
+//   display: none;
+
+//   &:hover{
+//     color: rgba(0, 51, 153, 0,8);
+//   border: 1px solid rgba(0, 51, 153, 0,8);
+//   background-color: rgba(0, 51, 153, 0,2);
+//   }
+// }
+
+// .go-top--show {
+//   display: block;
+// }
