@@ -22,6 +22,8 @@
 
 .footer-contact{
     width: 30%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .footer-contact__list{
@@ -110,7 +112,7 @@
         justify-content: space-between;
     }
     .footer-menu__phone{
-        width: 50%;
+        width: 100%;
         padding: 8px 5px;
     }
 }
@@ -149,6 +151,7 @@
     }
     .footer-menu-item{
         width: 70%;
+        flex-wrap: wrap;
     }
     .footer-menu__nav{
         width: 30%;
@@ -169,10 +172,10 @@
     }
     .footer-contact{
         flex-direction: column;
-        width: 60%;
+        width: 70%;
     }
     .footer-contact__list{
-        width: 80%;
+        width: 100%;
     }
     .footer-menu__phone{
         width: 100%;
@@ -205,7 +208,7 @@
         width: 100%;
     }
     .footer-menu__phone{
-        width: 170px;
+        width: 200px;
     }
 }
 

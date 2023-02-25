@@ -12,6 +12,7 @@
 html{
   height: 100%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 img{
@@ -30,11 +31,11 @@ body{
 }
 
 /* STICKY-FOOTER */
-// .site-main{
-//   flex-grow: 1;
-//   background-image: url(../images/0423d0889e7f5a645edc452fbe5ccc22.jpg);
-//   mask-repeat: repeat-y;
-// }
+.site-main{
+  flex-grow: 1;
+  background-image: url(../images/0423d0889e7f5a645edc452fbe5ccc22.jpg);
+  mask-repeat: repeat-y;
+}
 
 // .go-top {
 //   width: 35px;

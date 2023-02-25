@@ -14,6 +14,7 @@
   <title>jamshid_dried_fruits</title>
   <link rel="stylesheet" href="./css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/main.css">
+  <link rel="short cut icon" href="/images/jamshid1.png" type="image/png">
 </head>
 
 <body>
@@ -27,8 +28,8 @@
           <ul class="top-menu__list">
             <li class="top-menu__item"><a class="top-menu__link" href="#">Home</a></li>
             <li class="top-menu__item"><a class="top-menu__link" href="#">About</a></li>
-            <li class="top-menu__item"><a class="top-menu__link" href="#">Contact</a></li>
-            <li class="top-menu__item"><a class="top-menu__link" href="#">Deliveri</a></li>
+            <li class="top-menu__item"><a class="top-menu__link" href="#contact">Contact</a></li>
+            <li class="top-menu__item"><a class="top-menu__link" href="#">Delivery</a></li>
           </ul>
         </nav>
         <button class="menu-button"><img src="/images/menu-btn.svg" alt="menu"></button>
@@ -41,8 +42,8 @@
 
   <!-- MAIN PART BEGIN  -->
   <main class="site-main">
-    <!-- HERO SECTION BEGIN  -->
     <div class="container">
+      <!-- HERO SECTION BEGIN  -->
       <div class="site-hero">
         <div class="site-hero__main">
           <div class="site-hero__left">
@@ -59,8 +60,38 @@
           </div>
         </div>
       </div>
+      <!-- HERO SECTION END  -->
+
+      <!-- FORM SECTION BEGIN -->
+      <div class="site-form" id="contact">
+        <h3>Connect with us</h3>
+        <div class="site-form__main">
+          <form class="contact-form" action="https://formsubmit.co/jamshidyashinov28@gmail.com" method="POST">
+            <div class="form-group">
+              <label for="fname">Name</label>
+              <input type="text" id="fname" class="form-control" placeholder="Your name" autocomplete="off" name="Your firstname: " required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="text" id="email" class="form-control" placeholder="Your email address*" autocomplete="off" inputmode="email" name="email: " required>
+            </div>
+            <div class="form-group">
+              <label for="email">Phone number</label>
+              <input type="tel" class="form-control" placeholder="Your phone number*" autocomplete="off" inputmode="tel" name="tell: " required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" cols="30" rows="6" class="form-control" placeholder="Say something about us"></textarea>
+            </div>
+            <input type="submit" value="Send Message" class="btn submitbtn">
+          </form>
+          <div class="site-form__img-box">
+            <img class="site-form__img" src="./images/logo-removebg-preview.png" alt="dried fruit">
+          </div>
+        </div>
+      </div>
+      <!-- FORM SECTION END  -->
     </div>
-    <!-- HERO SECTION END  -->
   </main>
   <!-- MAIN PART END  -->
 
@@ -80,8 +111,8 @@
             <ul class="footer-menu__list">
               <li class="footer-menu__item"><a class="footer-menu__link" href="#">Home</a></li>
               <li class="footer-menu__item"><a class="footer-menu__link" href="#">About</a></li>
-              <li class="footer-menu__item"><a class="footer-menu__link" href="#">Contact</a></li>
-              <li class="footer-menu__item"><a class="footer-menu__link" href="#">Deliveri</a></li>
+              <li class="footer-menu__item"><a class="footer-menu__link" href="#contact">Contact</a></li>
+              <li class="footer-menu__item"><a class="footer-menu__link" href="#">Delivery</a></li>
             </ul>
           </nav>
           <div class="footer-contact">
@@ -94,15 +125,13 @@
                 <a class="footer-contact__link" href="#"><img class="footer-contact__social" src="./images/facebook.svg" alt="facebook"></a>
               </li>
               <li class="footer-contact__item">
-                <a class="footer-contact__link" href="https://t.me/Dried_fruit_Jamshid"><img class="footer-contact__social"
-                    src="./images/telegram.svg" alt="telegram"></a>
+                <a class="footer-contact__link" href="https://t.me/Dried_fruit_Jamshid"><img class="footer-contact__social" src="./images/telegram.svg" alt="telegram"></a>
               </li>
               <li class="footer-contact__item">
-                <a class="footer-contact__link" href="#"><img class="footer-contact__social" src="./images/whatsapp.svg" alt="gmail"></a>
+                <a class="footer-contact__link" href="https://wa.me/998931211818"><img class="footer-contact__social" src="./images/whatsapp.svg" alt="whatsapp"></a>
               </li>
               <li class="footer-contact__item">
-                <a class="footer-contact__link" href="https://mail.google.com/mail/u/0/#search/jamshidyashinov28%40gmail.com"><img
-                    class="footer-contact__social" src="./images/gmail.svg" alt="gmail"></a>
+                <a class="footer-contact__link" href="https://mail.google.com/mail/u/0/#search/jamshidyashinov28%40gmail.com"><img class="footer-contact__social" src="./images/gmail.svg" alt="gmail"></a>
               </li>
             </ul>
             <div class="footer-menu__phone">
