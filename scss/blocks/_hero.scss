@@ -51,3 +51,21 @@
     font-weight: 500;
     font-size: 20px;
 }
+.search-input{
+    padding: 10px;
+    padding-left: 40px;
+    background-image: url(../../images/magnifying-glass.png);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: calc(1%);
+}
+@include desktop-first(440px){
+    .search-form{
+        flex-direction: column;
+    }
+    .search-input{
+        padding: 10px;
+        padding-left: 35px;
+        background-position: calc(2%);
+    }
+}
